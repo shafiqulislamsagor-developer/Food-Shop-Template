@@ -2,6 +2,7 @@ $primary-color: #ff8c00;
 $max-width: 1440px;
 $Red: #f53e32;
 $Green: #3bb77e;
+$Orange: #ff6613;
 
 * {
   max-width: max-width;
@@ -281,7 +282,13 @@ $Green: #3bb77e;
   text-align: center;
   margin: 40px 0;
 }
-
+.Title2 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  margin: 40px 0 -20px 0;
+}
 .banner2 {
   background: url("/public/image\ 6.png");
   height: 589px;
@@ -328,6 +335,81 @@ $Green: #3bb77e;
         z-index: 2;
         margin: 5px 0;
       }
+    }
+  }
+}
+.custom-banner {
+  height: 500px;
+  margin: 40px 0;
+  background: linear-gradient(261deg, #ffeeda -0.92%, #ff8c00 90.09%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+
+  .text-box {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: end;
+    color: #000;
+    width: 90%;
+    margin: 0 auto;
+
+    .top-text {
+      font-size: 73px;
+      display: block;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 13.057px;
+      color: $Orange;
+      line-height: 28px;
+    }
+
+    .middle-text {
+      font-size: 40px;
+      display: block;
+
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .middle-text-highlight {
+      font-size: 60px;
+      display: block;
+
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47px;
+    }
+
+    .bottom-text {
+      font-size: 40px;
+      font-style: normal;
+      display: block;
+
+      font-weight: 500;
+      line-height: 62px;
+      margin-top: -22px;
+    }
+
+    .highlight-top {
+      font-size: 73px;
+      font-style: normal;
+      display: block;
+
+      font-weight: 700;
+      color: $Orange;
+      line-height: 28px;
+    }
+
+    .highlight-text {
+      font-size: 40px;
+      font-style: normal;
+      display: block;
+
+      font-weight: 500;
+      line-height: 28px;
     }
   }
 }
