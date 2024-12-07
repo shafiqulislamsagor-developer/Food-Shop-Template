@@ -386,6 +386,72 @@ $Orange: #ff6613;
   }
 }
 
+.footer {
+  border-top: 1px solid #e9e9e9;
+  background: #f7f7f8;
+  margin: 20px auto 0;
+  .footer-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  input[type="email"] {
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    &:focus {
+      outline: 0;
+      border-color: $Orange;
+      box-shadow: none;
+    }
+  }
+  .inputAdd {
+    border: 1px solid #e9e9e9;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+
+    background: white;
+    &:focus {
+      outline: 0;
+      border-color: $Orange;
+      box-shadow: none;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 10px;
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  .RedText {
+    color: $Red;
+  }
+  .hr {
+    color: #dad8d8;
+  }
+  a {
+    text-decoration: none;
+    color: #6c757d;
+    &:hover {
+      color: $Red;
+    }
+  }
+  .social-icons .icons {
+    border-radius: 5px;
+    border: 1px solid #e1dfdf;
+    background: #fff;
+    padding: 2px 5px;
+  }
+  .footer-images img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
 .custom-banner {
   height: 500px;
   margin: 40px 0;
@@ -459,72 +525,6 @@ $Orange: #ff6613;
       font-weight: 500;
       line-height: 28px;
     }
-  }
-}
-
-.footer {
-  border-top: 1px solid #e9e9e9;
-  background: #f7f7f8;
-  margin: 20px auto 0;
-  .footer-logo {
-    font-weight: bold;
-    font-size: 1.5rem;
-  }
-  input[type="email"] {
-    border-right: none;
-    border-radius: 8px 0 0 8px;
-    &:focus {
-      outline: 0;
-      border-color: $Orange;
-      box-shadow: none;
-    }
-  }
-  .inputAdd {
-    border: 1px solid #e9e9e9;
-    border-left: none;
-    border-radius: 0 8px 8px 0;
-
-    background: white;
-    &:focus {
-      outline: 0;
-      border-color: $Orange;
-      box-shadow: none;
-    }
-  }
-  ul {
-    padding: 0;
-    list-style: none;
-    li {
-      margin-bottom: 10px;
-      i {
-        margin-right: 10px;
-      }
-    }
-  }
-  .RedText {
-    color: $Red;
-  }
-  .hr {
-    color: #dad8d8;
-  }
-  a {
-    text-decoration: none;
-    color: #6c757d;
-    &:hover {
-      color: $Red;
-    }
-  }
-  .social-icons .icons {
-    border-radius: 5px;
-    border: 1px solid #e1dfdf;
-    background: #fff;
-    padding: 2px 5px;
-  }
-  .footer-images img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 5px;
   }
 }
 
