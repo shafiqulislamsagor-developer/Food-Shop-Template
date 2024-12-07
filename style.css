@@ -260,7 +260,7 @@
 }
 
 .banner2 {
-  background: url("/public/image 6.png");
+  background: url("public/image 6.png");
   height: 589px;
   display: flex;
   justify-content: end;
