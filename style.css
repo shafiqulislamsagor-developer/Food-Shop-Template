@@ -1,0 +1,17 @@
+* {
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+#top-navigation {
+  background-color: #ff8c00;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 17px 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
