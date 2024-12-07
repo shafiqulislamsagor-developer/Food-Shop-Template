@@ -430,6 +430,7 @@
 }
 .footer input[type=email]:focus {
   outline: 0;
+  border-color: #ff6613;
   box-shadow: none;
 }
 .footer .inputAdd {
@@ -437,6 +438,11 @@
   border-left: none;
   border-radius: 0 8px 8px 0;
   background: white;
+}
+.footer .inputAdd:focus {
+  outline: 0;
+  border-color: #ff6613;
+  box-shadow: none;
 }
 .footer ul {
   padding: 0;
