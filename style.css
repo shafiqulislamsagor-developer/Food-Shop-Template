@@ -1,5 +1,5 @@
 * {
-  width: 1440px;
+  max-width: max-width;
   margin: 0 auto;
   box-sizing: border-box;
   font-family: "Hind Siliguri", sans-serif;
@@ -8,10 +8,69 @@
 #top-navigation {
   background-color: #ff8c00;
   color: black;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 500;
-  padding: 17px 0;
+  padding: 10px 0;
   text-align: center;
+}
+@media (max-width: 768px) {
+  #top-navigation {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+}
+
+.container-width {
+  width: 95%;
+  margin: 0 auto;
+  max-width: max-width;
+  display: flex;
+}
+
+.navbar {
+  background: #fff;
+  padding: 10px 0;
+}
+.navbar .navbar-brand img {
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  gap: 25px;
+}
+.navbar .nav-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 15px;
+}
+.navbar .nav-link:hover {
+  background-color: rgba(255, 140, 0, 0.1);
+  border-radius: 5px;
+}
+.navbar .d-flex a img {
+  transition: transform 0.3s ease;
+}
+.navbar .d-flex a img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .navbar .nav-link {
+    font-size: 14px;
+    text-align: center;
+  }
+  .navbar .d-flex {
+    gap: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .navbar .d-flex {
+    gap: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
