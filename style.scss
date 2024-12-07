@@ -338,6 +338,49 @@ $Orange: #ff6613;
     }
   }
 }
+
+.guidelines-banner {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  padding: 20px;
+  background-color: #fff; // White background
+  border-radius: 8px;
+
+  .guidelines-text {
+    flex: 1;
+    padding: 20px;
+    color: #000;
+
+    ol {
+      list-style-position: inside;
+
+      li {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 20px;
+        text-align: left;
+      }
+    }
+  }
+
+  .guidelines-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    img {
+      // width: 100px;
+      height: 475px;
+      border-radius: 5px;
+    }
+  }
+}
+
 .custom-banner {
   height: 500px;
   margin: 40px 0;
